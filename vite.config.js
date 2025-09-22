@@ -3,6 +3,9 @@ import vue from '@vitejs/plugin-vue';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
+  // Use a dynamic base so the app can be served from a subpath on GitHub Pages.
+  // In CI, set BASE_PATH to "/<repo-name>/"; locally it defaults to "/".
+  base: process.env.BASE_PATH || '/',
   server: {
     port: 5175,
   },
