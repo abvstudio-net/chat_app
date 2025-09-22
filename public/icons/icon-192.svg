@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <rect width="192" height="192" fill="#0d1117"/>
+  <circle cx="96" cy="96" r="72" fill="#161b22"/>
+  <text x="96" y="118" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="88" fill="#ffffff">₿</text>
+</svg>
